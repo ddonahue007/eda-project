@@ -4,7 +4,7 @@
   sources:
     - name: my test source
       ansible.eda.range:
-        limit: 300
+        limit: 3600
         delay: 1
   rules:
     - name: Run job template
