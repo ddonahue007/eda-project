@@ -3,7 +3,7 @@
   hosts: all
   sources:
     - name: my test source
-      ansible.eda.range.X:
+      ansible.eda.rangeX:
         limit: 6
   rules:
     - name: Run job template
